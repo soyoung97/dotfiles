@@ -119,6 +119,7 @@ fi
 alias gs='git status'
 alias gst='git status'
 alias ga='git add'
+alias gd='git diff'
 alias py='python'
 alias v='vim'
 alias vi='vim'
