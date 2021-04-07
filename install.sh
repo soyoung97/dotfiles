@@ -1,9 +1,13 @@
 # install flake8
 pip install flake8
-
+locale-gen ko_KR.UTF-8
+locale -a | grep ko_KR
+#ko_KR.utf8
 # install vim-plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+echo "If curl is not installed, install it by apt install curl"
+
 
 #!/bin/bash
 DIRNAME="$(dirname "$0")"
@@ -23,9 +27,9 @@ install () {
 }
 
 install tmux.conf
-install vimrc
 install bashrc
 install zshrc
+install vimrc
 
 echo "To save the github crediential, please type the below command after you do the first push/pull"
 echo "git config credential.helper store --global"

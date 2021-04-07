@@ -1,3 +1,4 @@
+set t_Co=256
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -38,6 +39,8 @@ let g:snipMate = {'snippet_version': 1}
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
+
+
 
 let g:syntastic_ignore_extensions = '\c\v^([gx]?z|lzma|bz2|sage)$'
 let g:syntastic_always_populate_loc_list = 1
