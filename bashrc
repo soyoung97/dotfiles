@@ -1,3 +1,4 @@
+export LANGUAGE=ko_KR.utf8
 export LANG=ko_KR.utf8
 export TERM=xterm-256color
 # ~/.bashrc: executed by bash(1) for non-login shells.

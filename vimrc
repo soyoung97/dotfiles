@@ -1,3 +1,5 @@
+set encoding=utf-8
+set fileencodings=utf-8,cp949
 set t_Co=256
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -14,7 +16,6 @@ Plug 'w0ng/vim-hybrid'
 Plug 'vim-airline/vim-airline'
 
 " Languages
-Plug 'scrooloose/syntastic'
 Plug 'davidhalter/jedi-vim'
   " Plug 'lambdalisue/vim-pyenv'
 Plug 'petRUShka/vim-sage'
@@ -42,14 +43,6 @@ set statusline+=%*
 
 
 
-let g:syntastic_ignore_extensions = '\c\v^([gx]?z|lzma|bz2|sage)$'
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-let g:syntastic_quiet_messages = { "level": "warnings" }
-let g:syntastic_cpp_compiler_options = '-std=c++11'
-" let g:syntastic_python_checkers = ['flake8']
 
 " jedi-vim
 autocmd FileType python setlocal completeopt-=preview
