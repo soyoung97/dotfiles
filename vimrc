@@ -16,8 +16,6 @@ Plug 'w0ng/vim-hybrid'
 Plug 'vim-airline/vim-airline'
 
 " Languages
-Plug 'davidhalter/jedi-vim'
-  " Plug 'lambdalisue/vim-pyenv'
 Plug 'petRUShka/vim-sage'
 Plug 'lervag/vimtex', { 'for': ['bib', 'tex'] }
 
@@ -36,17 +34,12 @@ Plug 'honza/vim-snippets'
 Plug 'preservim/nerdtree'
 call plug#end()
 let g:snipMate = {'snippet_version': 1}
-" syntatic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
 
 
 
 
-" jedi-vim
+
 autocmd FileType python setlocal completeopt-=preview
-let g:jedi#show_call_signatures = "0"
 
 " Nerd-tree
 " let g:NERDTreeDirArrows=0
