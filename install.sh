@@ -31,7 +31,7 @@ install bashrc
 install zshrc
 install vimrc
 
-echo "To save the github crediential, please type the below command after you do the first push/pull"
+echo "To save the github crediential, please type the below command and then do git pull."
 echo "git config credential.helper store --global"
 echo "Please open vimrc and type :PlugInstall to finish settings"
 echo "You can add virtualenv settings at the last part of bashrc or zshrc. e.g. write: conda activate soyoung"
