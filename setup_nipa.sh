@@ -15,3 +15,4 @@ echo "Please open vimrc and type :PlugInstall"
 
 git config --global user.email "lovelife@kaist.ac.kr"
 git config --global user.name "soyoung97"
+git config credential.helper store --global
