@@ -133,3 +133,5 @@ alias ta='tmux attach'
 alias tls='tmux list-session'
 
 # >>> conda initialize >>>
+source /opt/conda/etc/profile.d/conda.sh
+conda activate soyoung

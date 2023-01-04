@@ -1,7 +1,7 @@
 # install flake8
 pip install flake8
-locale-gen ko_KR.UTF-8
-locale -a | grep ko_KR
+#locale-gen ko_KR.UTF-8
+#locale -a | grep ko_KR
 #ko_KR.utf8
 # install vim-plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
